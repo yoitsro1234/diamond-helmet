@@ -1,0 +1,19 @@
+h3{
+    font-size: 25px!important;
+}
+
+.btn-success:hover{
+    background-color:limegreen;
+}
+
+canvas{
+    animation-name: color-shadow-thing;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color-shadow-thing{
+    from {box-shadow: 1px, 1px, 38px, red;}
+    to {box-shadow: 1px, 1px, 38px, maroon;}
+
+}
